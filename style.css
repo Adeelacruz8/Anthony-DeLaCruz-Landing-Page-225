@@ -1,20 +1,20 @@
-body{background-color:#1F1B24}
+body{background-color:#0b0a0a}
 
 #om{color:black;
 }
 
 #eye{border: groove 4px;
-    border-color:black;
+    border-color:rgb(84, 55, 248);
     border-style: inset;
     align-self: center;
-    background-color: #9F8170 ;
+    background-color: #f85d5d ;
     display: flex;
     
 }
 
-h2{color:#50C878;
+h2{color:#3099f5;
     text-align: center;
-    text-shadow:10px 10px 15px rgb(85, 255, 190), 1px 1px 1px greenyellow;
+    text-shadow:10px 10px 15px rgb(85, 167, 255), 1px 1px 1px rgb(116, 116, 234);
 font-family: AmaticSC;}
 
 #plan{width: 0px;
@@ -25,17 +25,45 @@ align-items: center;}
 
     #P1{text-align: center;
     color:white;
-background-color: #0a0a0a;
-border:groove;}
+background-color: #000000;
+border: 1px solid;
+border-color: #ff493c;}
+
+#line1{color:#ffffff;}
+
+#line2{color: #ffffff;}
 
     #container1{margin: 10px;
    }
 
+   #video{text-align: center;
+border: solid #3b9cfe;}
 
+
+    #signup{color:#3b9cfe;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       border: solid #fe3b3b;
+       
+    }
+
+
+#F{border: 2px solid ;
+border-color: #000000 ;
+justify-content: center;
+align-self: center;
+background-color: #000000 ;
+}
     
 
-    
+.Linee{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
 
+#Button{text-align: center;}
 
 
     /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
